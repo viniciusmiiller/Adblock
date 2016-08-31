@@ -24,7 +24,7 @@ body{
 	color:red;
 	background-color:#ccc;
 	font-size: 18px;
-	background: linear-gradient(rgba+255,0,0,0), white, rgba(255,0,0,0));
+	background: linear-gradient(rgba(255,0,0,0), white, rgba(255,0,0,0));
 }
 .bartop a{
 	text-decoration:none!important;
