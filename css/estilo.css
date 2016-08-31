@@ -8,7 +8,7 @@ body{
 	padding:0;
 	overflow:hidden;
 	background-color:#c62828;
-	background: linear-gradient(#e53935, #f44336, rgba(255,0,0,0));
+	background: linear-gradient(#c62828, #f44336, rgba(255,0,0,0));
 	width:100%;
 	margin-bottom: 30px;
 	position: fixed;
@@ -46,7 +46,7 @@ body{
 	.w3-topnav,.bartop{
 		text-align:center;
 		position: static;
-		background: linear-gradient(#e53935, #f44336, #e53935);
+		background: linear-gradient(#c62828, #f44336, #c62828);
 	}
 }
 #content{
