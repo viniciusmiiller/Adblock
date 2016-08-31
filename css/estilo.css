@@ -8,7 +8,7 @@ body{
 	padding:0;
 	overflow:hidden;
 	background-color:#c62828;
-	background: linear-gradient(black, red, rgba(255,0,0,0));
+	background: linear-gradient(#e53935, #f44336, rgba(255,0,0,0));
 	width:100%;
 	margin-bottom: 30px;
 	position: fixed;
@@ -21,7 +21,7 @@ body{
 	color: white;
 }
 .bartop li a:hover{
-	color:red;
+	color:#f44336;
 	background-color:#ccc;
 	font-size: 18px;
 	background: linear-gradient(rgba(255,0,0,0), white, rgba(255,0,0,0));
@@ -46,7 +46,7 @@ body{
 	.w3-topnav,.bartop{
 		text-align:center;
 		position: static;
-		background: linear-gradient(black, red, black);
+		background: linear-gradient(black, #f44336, black);
 	}
 }
 #content{
