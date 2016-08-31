@@ -18,12 +18,13 @@ body{
 }
 .bartop li a{
 	display:block;padding:8px 16px;
-	color: white;	}
+	color: white;
+}
 .bartop li a:hover{
 	color:red;
 	background-color:#ccc;
 	font-size: 18px;
-	background: linear-gradient(white, white, rgba(255,0,0,0));
+	background: linear-gradient(rgba+255,0,0,0), white, rgba(255,0,0,0));
 }
 .bartop a{
 	text-decoration:none!important;
