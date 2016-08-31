@@ -43,8 +43,7 @@ body{
 	.bartop li.w3-right{
 		float:none!important;
 	}
-	.w3-topnav,.bartop{
-		text-align:center;
+	.bartop{
 		position: static;
 	}
 }
