@@ -8,7 +8,7 @@ body{
 	padding:0;
 	overflow:hidden;
 	background-color:#c62828;
-	background: linear-gradient(white, red, rgba(255,0,0,0));
+	background: linear-gradient(black, red, rgba(255,0,0,0));
 	width:100%;
 	margin-bottom: 30px;
 	position: fixed;
