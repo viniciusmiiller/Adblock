@@ -1,14 +1,14 @@
 body{
 	margin: 0;
-	font-family: "Trebuchet MS";
+	font-family: "Trebuchet MS", "Tahoma", "Calibri";
 }
 .bartop{
 	list-style-type:none;
 	margin:0;
 	padding:0;
 	overflow:hidden;
-	background-color:#c62828;
-	background: #f44336;
+	background-color:#ef5350;
+	/*background: #f44336;*/
 	width:100%;
 	margin-bottom: 30px;
 	position: fixed;
@@ -22,9 +22,8 @@ body{
 }
 .bartop li a:hover{
 	color:#f44336;
-	background-color:#ccc;
+	background-color: white;
 	font-size: 18px;
-	background: linear-gradient(rgba(255,0,0,0), white, rgba(255,0,0,0));
 }
 .bartop a{
 	text-decoration:none!important;
@@ -33,23 +32,38 @@ body{
 	float:right!important;
 }
 .img-responsive img{
-	max-width: 100%;
+	max-width: 80%;
+}
+#content{
+	float: left;
+	padding-left: 1%;
+}
+.subcontent{
+	padding: 35px 0 0 0;
+}
+p{
+	text-align: justify;
 }
 @media screen and (max-width:600px){
 	.bartop li{
 		float:none;
 		width:100%!important;
 	}
-	.bartop li.w3-right{
+	.bartop li{
 		float:none!important;
 	}
 	.bartop{
 		position: static;
 	}
-}
-#content{
-	float: left;
-}
-.subcontent{
-	padding: 35px 0 0 0;
+	#content{
+		float: left;
+		padding-left: 0;
+	}
+	.img-responsive img{
+		max-width: 100%;
+		min-width: 100%;
+	}
+	h1, h2, p{
+		padding: 0 10px 0 10px;
+	}
 }
