@@ -8,22 +8,18 @@ body{
 	padding:0;
 	overflow:hidden;
 	background-color:#ef5350;
-	/*background: #f44336;*/
 	width:100%;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	position: fixed;
 }
 .bartop li{
 	float:left;
+	height: 100%;
 }
 .bartop li a{
 	display:block;padding:8px 16px;
 	color: white;
-}
-.bartop li a:hover{
-	color:#f44336;
-	background-color: white;
-	font-size: 18px;
+	height: 100%;
 }
 .bartop a{
 	text-decoration:none!important;
@@ -31,15 +27,39 @@ body{
 .bartop{
 	float:right!important;
 }
+.bartopBarraBottom{
+	width: 0%;
+	height: 5px;
+	background-color: black;
+	transition: width .2s;
+	transition-duration: .20s;
+	margin: 0 auto;
+}
+#bartopContente{
+	margin: 0 auto;
+	height: 100%;
+	width:100%;
+}
+.bartop li:hover .bartopBarraBottom{
+	width: 100%;
+	background-color: black;
+	transition: width .2s;
+	transition-duration: .20s;
+}
 .img-responsive img{
 	max-width: 80%;
 }
+.iframe-responsive{
+	display:block;
+	margin: 0 auto;
+	border-width: 1px;
+}
 #content{
 	float: left;
-	padding-left: 1%;
+	padding: 0px 1% 0px 1%;
 }
 .subcontent{
-	padding: 35px 0 0 0;
+	padding: 35px 0 0 1%;
 	background-color: #e8eaf6;
 }
 p{
@@ -49,20 +69,32 @@ p{
 	.bartop li{
 		float:none;
 		width:100%!important;
-	}
-	.bartop li{
+		height: initial;
 		float:none!important;
+	}
+	.bartop li a, #bartopContente{
+		height: initial;
 	}
 	.bartop{
 		position: static;
+		margin: 0;
 	}
 	#content{
 		float: left;
-		padding-left: 0;
+		padding: 0;
 	}
 	.img-responsive img{
 		max-width: 100%;
 		min-width: 100%;
+	}
+	.iframe-responsive{
+		display:block;
+		max-width: 80%;
+		min-width: 80%;
+		min-height: 200px;
+		min-height: 200px;
+		margin: 0 auto;
+		border-width: 1px;
 	}
 	h1, h2, p{
 		padding: 0 10px 0 10px;
