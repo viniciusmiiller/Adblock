@@ -87,6 +87,7 @@ p{
 	.bartopLogo{
 		height: initial;
 		padding: 1%;
+		width:100%!important;
 	}
 	.bartop{
 		position: static;
