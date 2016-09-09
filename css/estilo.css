@@ -6,29 +6,40 @@ body{
 .bartopLogo{
 	background-color:#d32f2f;
 	width:100%;
-	height:45px;
-	padding-top: 65px;
+	height:110px;
+	/*padding-top: 65px;*/
 	text-align: center;
+	/*z-index: 1;*/
+}
+.bartopLogo img{
+	width: 100%;
+	height: 100%;
 }
 .bartop{
 	list-style-type:none;
-	margin:0;
-	padding:0;
+	/*margin:0;*/
+	/*padding:0;*/
 	overflow:hidden;
-	background-color:#ef5350;
+	background-color:#ee3b3b;
 	width:100%;
-	margin-bottom: 110px;
-	position: fixed;
-	top: 0;
+	/*margin-bottom: 110px;*/
+	position: relative;
+	/*z-index: 0;
+	top: 0;*/
+}
+.bartop-fixo {
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 .bartop li{
 	float:left;
-	height: 100%;
+	/*height: 100%;*/
 }
 .bartop li a{
 	display:block;padding:8px 16px;
 	color: white;
-	height: 100%;
+	/*height: 100%;*/
 }
 .bartop a{
 	text-decoration:none!important;
@@ -46,7 +57,7 @@ body{
 }
 #bartopContente{
 	margin: 0 auto;
-	height: 100%;
+	/*height: 100%;*/
 	width:100%;
 }
 .bartop li:hover .bartopBarraBottom{
@@ -65,7 +76,8 @@ body{
 }
 #content{
 	float: left;
-	padding: 0px 1% 0px 1%;
+	/*padding: 0px 1% 0px 1%;*/
+	/*position: relative;*/
 }
 .subcontent{
 	padding: 35px 0 0 1%;
